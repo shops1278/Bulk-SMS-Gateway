@@ -1,0 +1,26 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    compileSdk 33
+    defaultConfig {
+        applicationId "com.example.smsgateway"
+        minSdk 21
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+    implementation 'fi.iki.elonen:nanohttpd:2.3.1'
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.7.10'
+}

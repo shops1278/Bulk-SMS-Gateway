@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bulk SMS Gateway</string>
+    <string name="start_service">Start Service</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="not_running">Service not running</string>
+    <string name="api_key">4f9d7b2c-8a1e-4c6b-9f3a-2d5e7b8c1a9f</string>
+</resources>
